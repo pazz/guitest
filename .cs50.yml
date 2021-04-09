@@ -1,6 +1,8 @@
 lab50:
   files:
-    - !include "*"
+    - !exclude "*"
+    - !include "*.java"
+    - !include "*.class"
   window:
     - readme
     - terminal
